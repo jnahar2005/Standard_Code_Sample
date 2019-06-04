@@ -1,4 +1,6 @@
 public function create_campaign($ajax = '') {
+
+
         if ($this->input->post()) {
             $user_id = $this->session->userdata('user_id');
             $formdata = $this->input->post();
